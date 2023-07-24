@@ -1,0 +1,38 @@
+body{
+    background-color: darkslateblue;
+
+}
+
+.imgBox{
+    background-image: url('img2.png');
+    position: relative;
+    /* as you make this imgBox relative to whiteBox so now without using the margin-left,top,bottom and margin-right you can directly use the top,bottom,right and left and you can set the postion relative to whiteBox */
+    height: 252px;
+    width: 290px;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.whiteBox{
+    height: 258px;
+    width: 300px;
+    margin: 10px;
+    background-color: white;
+    border: 3px solid red;
+    display: inline-block;
+}
+
+.hold{
+    border: solid red 4px;
+}
+
+.dashed{
+    background-color: gray;
+    border-style: dashed;
+}
+
+.hide{
+    display: none;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Italianno&family=Oswald&family=Poppins:wght@600&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body,html{
+    display: grid;
+    height: 100%;
+    place-items:center;
+    background-color: #eff4f5;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 15px rgb(192,182,192);
+    width: 35rem;
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.card .projectName{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    /* margin-bottom: 3rem; */
+}
+
+.cntr{
+    font-size: 3rem;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+
+.lowerbtn , .nextbtn{
+    font-size: 2rem;
+    outline: none;
+    margin: 0 5rem;
+    padding: .25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
+}
