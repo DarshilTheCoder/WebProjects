@@ -1,0 +1,10 @@
+.body{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    /* use to take things into the middle of the page  */
+}
