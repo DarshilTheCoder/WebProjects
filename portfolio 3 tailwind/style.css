@@ -1,0 +1,390 @@
+/* index Css */
+
+
+#header{
+    background: transparent url(web.jpg);
+
+}
+header img:hover{
+    cursor: pointer;
+}
+.img{
+    border-radius: 50%;
+    width: 20vw;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.webimage{
+    margin-top: -179px;
+}
+
+.webimg{
+    margin-top: -299px;
+}
+.welmsg {
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+    position: relative;
+    top: 420px;
+    margin-left: 56px;
+}
+
+@media(max-width : 1000px){
+    .img{
+        width: 70vw;
+    }
+    .webimage{
+        margin-top: -134px;
+    } 
+    .webimg{ 
+        margin-top: -223px;
+        height: 100vh;
+    } 
+    .webimg img{
+        height: 78vh;
+    }
+    .webimage img{
+        /* background: url("web3.jpg"); */
+        height: 88vh;
+    }
+    .welmsg {
+        color: white;
+        font-family: monospace;
+        font-size: 30px;
+        position: relative;
+        top: 380px;
+        margin-left: 26px;
+    }
+}
+
+/* ABOUT CSS */
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.infocontainer2 {
+    font-family: monospace;
+    /* background-color: red; */
+    width: vw;
+
+}
+
+.infocontainer2 .hello2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.infocontainer2 .name2 {
+    display: flex;
+    justify-content: center;
+}
+
+.infocontainer2 .information {
+    /* background-color: red; */
+    width: 80vw;
+    line-height: 25px;
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.ul{
+    display: inline-block;
+}
+
+.ul li {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.imgclass {
+    width: 200px;
+    position: relative;
+    left: 630px;
+}
+
+@media(max-width : 1000px){
+    .infocontainer2 {
+        font-family: monospace;
+        /* background-color: red; */
+        width: 100vw;
+        padding: 30px;
+    
+    }
+    
+    .infocontainer2 .hello2 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .infocontainer2 .name2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .infocontainer2 .information {
+        /* background-color: red; */
+        width: 80vw;
+        line-height: 25px;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .ul{
+        display: inline-block;
+    }
+    
+    .ul li {
+        margin-top: 10px;
+        list-style: none;
+    }
+    
+    .imgclass {
+        width: 200px;
+        position: relative;
+        left: 5px;
+        top: -8px;
+    }
+    #section{
+        padding-top: 40px;
+    }
+    #section2{
+        padding-top: 60px;
+    }
+    #section3{
+        margin-top:50px ;
+    }
+}
+
+
+
+/* project CSS */
+
+
+/* Contact CSS */
+.form {
+    margin: 0px 314px;
+    /* margin: 14px 361px; */
+    /* transform: translate(-50%,-70%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form h1 {
+    font-size: 25px;
+    font-family: monospace;
+    margin-top: 10px;
+    margin-left:150px;
+    margin-bottom: 30px;
+}
+
+.namecontainer{
+    display: flex;
+}
+
+.name1{
+    
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+
+.name2{
+    margin: 0px 5px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+
+.name .textname{
+    margin-left:5px ;
+}
+
+.email {
+    margin: 10px 0px;
+}
+
+.form-label {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.emailform {
+    margin: 20px 0px;
+    width: 200px;
+}
+
+.exampleInputEmail1 {
+    width: 300px;
+}
+
+.email .form-text {
+    font-size: 10px;
+    color: rgb(96, 96, 193);
+    font-family: monospace;
+}
+
+.check {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.mb-3 {
+    margin-top: 10px;
+}
+
+.tellaboutyourself{
+    margin-top: 15px;
+}
+.tellaboutyourself input{
+    width: 500px;
+    height: 80px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.contbtn {
+    width: 100px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 17px;
+    border: 2px solid rgb(19, 147, 221);
+    border-radius: 5px;
+    background-color: rgb(19, 147, 221);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contbtn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(19, 147, 221);
+    border: 2px solid rgb(19, 147, 221);
+}
+
+@media(max-width : 1000px){
+    .form {
+        width: 100vw;
+        margin: 0px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .form h1 {
+        margin-bottom: 35px;
+        margin-left: 10px;
+    }
+    
+    .namecontainer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 2px;
+    }
+    
+    .name1{
+        font-size: 20px;
+        font-family: monospace;
+        font-weight: lighter;
+        margin-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .name2{
+        margin: 0px 0px;
+        font-size: 20px;
+        font-family: monospace;
+        font-weight: lighter;
+        margin-top: 5px;
+    }
+    
+    .name .textname{
+        margin-left:5px ;
+    }
+
+    .name2 .textname2{
+        margin-left: 5px;
+    }
+    
+    .email {
+        margin: 10px 0px;
+    }
+    
+    .form-label {
+        font-size: 19px;
+        font-family: monospace;
+    }
+    
+    .emailform {
+        margin: 20px 0px;
+        width: 200px;
+    }
+    
+    .exampleInputEmail1 {
+        width: 300px;
+    }
+    
+    .email .form-text {
+        font-size: 10px;
+        color: darkblue;
+        font-family: monospace;
+    }
+    
+    .check {
+        font-family: monospace;
+        font-size: 20px;
+    }
+    
+    .mb-3 {
+        margin-top: 10px;
+    }
+
+    textarea{
+        width: 95vw;
+    }
+    
+    .tellaboutyourself{
+        margin-top: 15px;
+    }
+    .tellaboutyourself input{
+        width: 500px;
+        height: 80px;
+        font-family: monospace;
+        font-size: 15px;
+    }
+    
+    .contbtn {
+        width: 100px;
+        height: 40px;
+        font-family: monospace;
+        font-size: 17px;
+        border: 2px solid rgb(19, 147, 221);
+        border-radius: 5px;
+        background-color: rgb(19, 147, 221);
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .contbtn:hover {
+        cursor: pointer;
+        background-color: white;
+        color: rgb(19, 147, 221);
+        border: 2px solid rgb(19, 147, 221);
+    }
+}
