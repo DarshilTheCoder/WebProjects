@@ -1,0 +1,88 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotifylogo">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- <img src="pngwing.com2.png" alt=""> -->
+        <div class="songlist">
+            <h2>MY Playlist</h2>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">02:54<i id="0" class="fas playIcon fa-1x fa-play-circle" ></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">04:00<i id="1" class="fas playIcon fa-1x fa-play-circle"  ></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:31<i id="2" class="fas playIcon fa-1x fa-play-circle" ></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:16<i id="3" class="fas playIcon fa-1x fa-play-circle" ></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">04:37<i id="4" class="fas playIcon fa-1x fa-play-circle" ></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">04:42<i id="5" class="fas playIcon fa-1x fa-play-circle" ></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:58<i id="6" class="fas playIcon fa-1x fa-play-circle" ></i></span></span>
+                </div>
+            </div>
+            <!-- <img src="pngwing.com2.png" alt=""> -->
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <!-- fontawesome icons -->
+        <input type="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="prev"></i>
+            <i class="fas fa-3x fa-play-circle"  id="playBtn"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="" width="43px" id="gif"><span id="masterSongName"></span>
+        </div>
+    </div>
+
+</body>
+<script src="https://kit.fontawesome.com/1f6de6cccd.js" crossorigin="anonymous"></script>
+<!-- <script src="script.js"></script> -->
+<script src="script.js"></script>
+
+</html>

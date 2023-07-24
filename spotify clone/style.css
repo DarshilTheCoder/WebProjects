@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@300&family=Inter:wght@300&family=Italianno&family=Oswald&family=Poppins:wght@600&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@300&family=Inter:wght@300&family=Italianno&family=Oswald&family=Poppins:wght@600&family=Roboto&family=Ubuntu&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    background-color: black;
+    height: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    color: white;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul li{
+    margin: 0px 6px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+
+}
+
+.brand img{
+    width: 2rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    width: 70%;
+    display: flex;
+    margin: 23px auto;
+    background-image: url("pngwing.com2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    /* padding: 5px 0px; */
+}
+
+/* .container h2{
+    position: absolute;
+    right: 15rem;
+} */
+
+.songItemContainer{
+    margin: 20px 0px;
+}
+.songlist{
+    padding: 5px 2px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    color: #000;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 20px;
+}
+
+.timestamp{
+    margin: 0 23px;
+    /* cursor: pointer; */
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.icons{
+    margin-top: 20px;
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
