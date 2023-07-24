@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Italianno&family=Oswald&family=Poppins:wght@300&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html{
+    background-color: #666ee6;
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.container{
+    background-color: #fff;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgb(0,0,0,.2);
+}
+
+.h4{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form .texttype{
+    width: 35rem;
+    height: 2.5rem;
+}
+
+form input.texttype{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+form .submitbtn{
+    margin-top: .5rem;
+    background-color: #666ee6;
+    color: white;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+
+    font-size: 1rem;
+}
+
+form .submitbtn:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0),.2;
+}
+
+h5{
+    margin-top: .5rem;
+    background-color: #FFD4CD;
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+}
+
+.feedback{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.msg-display{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+    color: green;
+}
