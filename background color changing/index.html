@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-Color Changer</title>
+    <style>
+        body {
+
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            background-color: gray;
+            color: white;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            /* margin: 40vh 45vw; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="btns">
+        <button id="1">PINK</button>
+        <button id="2">BLUE</button>
+        <button id="3">GREEN</button>
+    </div>
+
+</body>
+<script>const buttons = document.querySelector("button");
+    const body = document.querySelector("body");
+    const color = ['pink', 'blue', 'green'];
+    body.style.backgroundColor = "violet";
+
+    buttons.forEach(button => {
+
+        button.addEventListener("click", changeColor)
+
+        function changeColor() {
+            const colorIndex = parseInt();
+            body.style.backgroundColor = color[colorIndex];
+        }
+    });
+</script>
+
+</html>
